@@ -1,6 +1,6 @@
 import { ErrorAbstract } from '../../../shared/error-abstract';
 
-export class UserNotFoundError extends ErrorAbstract {
+export class UserPasswordInvalidError extends ErrorAbstract {
   constructor(message: string) {
     super(message);
   }
